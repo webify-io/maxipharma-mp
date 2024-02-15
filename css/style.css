@@ -1037,7 +1037,7 @@ td {
 	padding: 8px;
 }
 .info_section .row .content tr:nth-child(even) {
-	background-color: #f2f2f2;
+	background-color: #eee;
 }
 .info_section .row .content th {
 	background-color: var(--secondary-accent-color);
@@ -1096,7 +1096,7 @@ td {
 	margin-top: 2rem;
 }
 #info_section_h4_sec {
-	background-color: #f2f2f2;
+	background-color: #eee;
 	font-size: var(--fs-600);
 	padding: 1.5rem;
 	text-align: center;
