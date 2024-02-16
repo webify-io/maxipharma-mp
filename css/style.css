@@ -991,8 +991,9 @@ form textarea:focus {
 
 .info_section .row .content h3 {
 	color: var(--clr-text-light-dark);
-	text-shadow: var(--text-shadow);
-	font-size: 4rem;
+	font-size: var(--fs-800);
+	text-shadow: var(--text-shadow-alt);
+	line-height: 1.2;
 }
 
 .info_section .row .content p {
