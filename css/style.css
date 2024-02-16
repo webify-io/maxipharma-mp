@@ -1351,7 +1351,7 @@ td {
 		font-weight: var(--fw-bold);
 		display: block;
 		text-align: center;
-		background: #eee;
+		background: var(--background-body-accent-clr-alt-2nd);
 		padding: 5px;
 		border: 0.225rem solid var(--clr-text-dark);
 		border-radius: 5px;
