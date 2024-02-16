@@ -1338,7 +1338,8 @@ td {
 		width: 100%;
 		background: var(--background-body-accent-clr);
 		padding: 5px 15px 15px;
-		border-radius: 10px;
+		border-radius: 0 0 10px 10px;
+		box-shadow: 0 0 5px var(--light-color);
 		transition: 0.2s ease;
 		opacity: 0;
 	}
