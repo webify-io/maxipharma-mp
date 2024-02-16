@@ -1352,7 +1352,6 @@ td {
 		display: block;
 		text-align: center;
 		padding: 5px;
-		box-shadow: 0 0 5px var(--primary-accent-color);
 		border: 0.225rem solid var(--primary-accent-color);
 		border-radius: 10px;
 		margin-top: 3.2rem;
