@@ -1054,7 +1054,7 @@ td {
 .info_section .row .content td {
 	color: var(--clr-text-light-dark);
 	padding: 1rem 0;
-	font-size: var(--fs-300);
+	font-size: var(--fs-350);
 	font-weight: var(--fw-semi-bold);
 	line-height: 1.6;
 	text-transform: none;
