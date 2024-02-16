@@ -1336,8 +1336,8 @@ td {
 		top: 100%;
 		right: 0;
 		width: 100%;
-		background: var(--background-body-accent-clr-alt);
-		padding: 5px 10px 10px;
+		background: var(--background-body-accent-clr);
+		padding: 5px 15px 15px;
 		border-radius: 10px;
 		transition: 0.2s ease;
 		opacity: 0;
@@ -1352,7 +1352,7 @@ td {
 		display: block;
 		text-align: center;
 		background: var(--background-body-accent-clr-alt-2nd);
-		padding: 5px;
+		padding: 6px;
 		border-radius: 5px;
 		margin-top: 3.2rem;
 		font-size: var(--fs-700);
@@ -1361,7 +1361,7 @@ td {
 		color: var(--blue);
 		box-shadow: 0 0 5px var(--light-color);
 		border-bottom: solid var(--primary-accent-color) 3px;
-		background: var(--background-body-accent-clr);
+		background: var(--background-body-accent-clr-alt);
 	}
 	.header_quote {
 		left: 18rem;
