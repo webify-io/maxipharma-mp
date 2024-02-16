@@ -994,6 +994,7 @@ form textarea:focus {
 	font-size: var(--fs-800);
 	text-shadow: var(--text-shadow-alt);
 	line-height: 1.2;
+	padding-top: 1.5rem;
 }
 
 .info_section .row .content p {
