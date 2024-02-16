@@ -1261,7 +1261,7 @@ td {
 }
 
 .footer .box-container .box a:hover {
-	color: var(--primary-accent-color);
+	color: var(--blue);
 	text-decoration: underline 1.5px;
 }
 
