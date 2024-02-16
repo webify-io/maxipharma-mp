@@ -51,6 +51,7 @@
 	--fs-400: 1.75rem;
 	--fs-500: 1.8rem;
 	--fs-600: 1.875rem;
+	--fs-650: 2.25rem;
 	--fs-700: 2.5rem;
 	--fs-800: 3rem;
 	--fs-900: 3.5rem;
@@ -992,7 +993,6 @@ form textarea:focus {
 .info_section .row .content h3 {
 	color: var(--clr-text-light-dark);
 	font-size: var(--fs-800);
-	text-shadow: var(--text-shadow-alt);
 	line-height: 1.2;
 	padding-top: 1.5rem;
 }
@@ -1016,10 +1016,9 @@ form textarea:focus {
 	text-transform: none;
 }
 .info_section .row .content h4 {
-	font-size: var(--fs-700);
+	font-size: var(--fs-650);
 	color: var(--clr-text-light-dark);
 	font-weight: var(--fw-bold);
-	text-shadow: var(--text-shadow-alt);
 	padding: 1.5rem 0;
 	line-height: 1.2;
 	text-transform: uppercase;
@@ -1055,7 +1054,8 @@ td {
 .info_section .row .content td {
 	color: var(--clr-text-light-dark);
 	padding: 1rem 0;
-	font-size: var(--fs-400);
+	font-size: var(--fs-300);
+	font-weight: var(--fw-semi-bold);
 	line-height: 1.6;
 	text-transform: none;
 }
@@ -1336,9 +1336,9 @@ td {
 		right: 0;
 		width: 100%;
 		background-color: #fff;
-		padding: 20px;
+		padding: 5px 10px 10px;
 		border-radius: 10px;
-		transition: 0.3s ease;
+		transition: 0.2s ease;
 		opacity: 0;
 	}
 	.header .navbar.active {
@@ -1350,14 +1350,17 @@ td {
 		font-weight: var(--fw-bold);
 		display: block;
 		text-align: center;
-		padding: 10px;
+		padding: 5px;
 		box-shadow: 0 0 5px var(--primary-accent-color);
+		border: 0.3rem solid var(--primary-accent-color);
 		border-radius: 10px;
 		margin-top: 3.2rem;
-		font-size: 2.5rem;
+		font-size: var(--fs-700);
 	}
 	.navbar a.active {
 		color: var(--secondary-accent-color);
+		box-shadow: 0 0 5px var(--secondary-accent-color);
+		border: 0.3rem solid var(--primary-accent-color);
 	}
 	.header_quote {
 		left: 18rem;
