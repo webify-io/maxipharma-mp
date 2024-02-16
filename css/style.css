@@ -1328,6 +1328,7 @@ td {
 @media (max-width: 900px) {
 	#menu-btn {
 		display: initial;
+		margin-right: -1.6rem;
 	}
 	.header .navbar {
 		position: absolute;
