@@ -1402,7 +1402,7 @@ td {
 
 @media (max-width: 450px) {
 	html {
-		font-size: 50%;
+		font-size: 52.5%;
 	}
 	.header {
 		padding: 4rem;
@@ -1453,7 +1453,7 @@ td {
 		font-size: var(--fs-500);
 	}
 	.footer .box-container .box a {
-		font-size: var(--fs-400);
+		font-size: var(--fs-300);
 		font-weight: var(--fw-semi-bold);
 	}
 	.footer .box-container {
