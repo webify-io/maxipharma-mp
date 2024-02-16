@@ -1359,8 +1359,8 @@ td {
 	}
 	.navbar a.active {
 		color: var(--blue);
-		box-shadow: 0 0 5px var(--secondary-accent-color);
-		border: 0.225rem solid var(--primary-accent-color);
+		box-shadow: 0 0 5px var(--blue);
+		border: 0.225rem solid var(--blue);
 	}
 	.header_quote {
 		left: 18rem;
