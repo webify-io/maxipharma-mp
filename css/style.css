@@ -559,7 +559,7 @@ section:nth-child(even) {
 	color: var(--clr-text-light-dark);
 	font-size: var(--fs-700);
 	padding: 1rem 0;
-	text-shadow: var(--text-shadow-alt);
+	/* text-shadow: var(--text-shadow-alt); */
 }
 
 .services .box-container .box ul {
@@ -575,7 +575,6 @@ section:nth-child(even) {
 	/* line-height: 2; */
 	text-align: left;
 	text-transform: none;
-
 	padding: 0.7rem;
 }
 
