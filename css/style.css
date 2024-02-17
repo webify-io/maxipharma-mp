@@ -712,8 +712,7 @@ section:nth-child(even) {
 
 .about .row .content h3 {
 	color: var(--clr-text-light-dark);
-	text-shadow: var(--text-shadow);
-	font-size: 4rem;
+	font-size: var(--fs-900);
 }
 
 .about .row .content p {
