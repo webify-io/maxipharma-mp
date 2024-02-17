@@ -666,8 +666,8 @@ section:nth-child(even) {
 .services_modal-icon {
 	color: var(--clr-text-light-dark-p);
 	font-size: var(--fs-250);
-	margin-right: 0.27rem;
-	padding-top: 1.55rem;
+	margin-right: 0.25rem;
+	padding: 1.5rem 0;
 }
 
 /* ========= Active Modal ======== */
