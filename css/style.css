@@ -558,35 +558,30 @@ section:nth-child(even) {
 .services .box-container .box h3 {
 	color: var(--clr-text-light-dark);
 	font-size: var(--fs-700);
-	padding: 1rem 0;
+	padding: 1.5rem;
 	/* text-shadow: var(--text-shadow-alt); */
 }
 
-.services .box-container .box ul {
+/* .services .box-container .box ul {
 	color: var(--clr-text-light-dark-p);
 	font-size: var(--fs-600);
-	/* line-height: 2; */
 	text-align: left;
-}
+} */
 
-.services .box-container .box p {
+/* .services .box-container .box p {
 	color: var(--clr-text-light-dark-p);
 	font-size: var(--fs-600);
-	/* line-height: 2; */
 	text-align: left;
 	text-transform: none;
 	padding: 0.7rem;
-}
+} */
 
 .services .box-container .box .btn {
 	display: inline-block;
 	margin-top: 2rem;
 	padding: 1.5rem 2rem;
-	/* padding-left: 1rem; */
-	/* border: var(--border); */
 	border-radius: 0.6rem;
 	box-shadow: var(--box-shadow);
-	/* color: var(--primary-accent-color); */
 	color: var(--clr-modal);
 	cursor: pointer;
 	font-size: 1.7rem;
