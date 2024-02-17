@@ -1348,7 +1348,7 @@ td {
 		opacity: 1;
 	}
 	.header .navbar a {
-		color: var(--clr-text-dark);
+		color: var(--clr-text-light-dark);
 		font-weight: var(--fw-bold);
 		display: block;
 		text-align: center;
