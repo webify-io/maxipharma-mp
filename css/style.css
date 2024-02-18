@@ -266,7 +266,8 @@ section:nth-child(even) {
 	padding: 2.5rem 0;
 	text-transform: none;
 }
-.home .home_qoute_p {
+.home .home_qoute_p,
+#home_qoute_p-450px {
 	font-size: var(--fs-400);
 	font-weight: var(--fw-semi-bold);
 	color: var(--secondary-accent-color);
@@ -277,6 +278,9 @@ section:nth-child(even) {
 #home_qoute_p {
 	color: var(--secondary-accent-color);
 	padding: 0rem 0 2.5rem;
+}
+#home_qoute_p-450px {
+	display: none;
 }
 
 .btn {
@@ -1423,6 +1427,12 @@ td {
 		position: absolute;
 		left: 8.9rem;
 		top: 7rem;
+	}
+	#home_qoute_p {
+		display: none;
+	}
+	#home_qoute_p-450px {
+		display: initial;
 	}
 	.services {
 		padding-top: 15rem;
