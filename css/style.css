@@ -1433,7 +1433,7 @@ td {
 	}
 	#home_qoute_p-450px {
 		display: initial;
-		font-weight: var(--fw-regular);
+		font-weight: 400;
 	}
 	.services {
 		padding-top: 15rem;
