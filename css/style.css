@@ -1359,6 +1359,9 @@ td {
 		border-bottom: solid var(--primary-accent-color) 3px;
 		background: var(--background-body-accent-clr-alt);
 	}
+	.header_logo-name a {
+		left: 18rem;
+	}
 	.header_quote {
 		left: 18rem;
 	}
