@@ -176,6 +176,9 @@ section:nth-child(even) {
 	right: 5rem;
 	top: 7.5rem;
 }
+#header_quote-450px {
+	display: none;
+}
 /* To hide the logo and quote -ref JS */
 /* .hide {
 	display: none;
@@ -1316,7 +1319,7 @@ td {
 @media (max-width: 900px) {
 	#menu-btn {
 		display: initial;
-		margin-right: -1rem;
+		/* margin-right: -1rem; */
 	}
 	.header .navbar {
 		position: absolute;
@@ -1400,15 +1403,26 @@ td {
 		font-size: 50%;
 	}
 	.header {
-		padding: 4rem;
+		padding: 2.5rem 2rem;
 		transition: 0.3s ease;
 	}
 	.header_logo-name a {
-		left: 2rem;
-		top: 3.9rem;
+		left: 8.8rem;
+		top: 2.7rem;
 	}
 	.header img {
-		display: none;
+		width: 6.2rem;
+	}
+	#header_quote-450px {
+		display: initial;
+		flex: 3;
+		clear: both;
+		font-size: var(--fs-350);
+		font-weight: var(--fw-regular);
+		color: var(--clr-text-light);
+		position: absolute;
+		left: 8.9rem;
+		top: 7rem;
 	}
 	.services {
 		padding-top: 15rem;
