@@ -1358,13 +1358,14 @@ td {
 		text-align: center;
 		background: var(--background-body-accent-clr);
 		padding: 6px;
+		box-shadow: 1px 1px 2px var(--light-color);
 		border-radius: 5px;
 		margin-top: 3.2rem;
 		font-size: var(--fs-700);
 	}
 	.navbar a.active {
 		color: var(--blue);
-		box-shadow: 0 0 5px var(--light-color);
+		box-shadow: 1px 1px 2px var(--light-color);
 		border-bottom: solid var(--primary-accent-color) 3px;
 		background: var(--background-body-accent-clr-alt);
 	}
