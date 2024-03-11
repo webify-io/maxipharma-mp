@@ -1283,7 +1283,7 @@ td {
 	/* padding-top: 2rem; */
 	/* margin-top: 2rem; */
 	text-align: center;
-	font-size: var(--fs-250);
+	font-size: var(--fs-300);
 	background-color: var(--background-body-accent-clr-alt-2nd);
 	color: var(--clr-text-light-dark);
 	border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
