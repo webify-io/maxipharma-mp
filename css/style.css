@@ -1288,9 +1288,9 @@ td {
 	color: var(--clr-text-light-dark);
 	border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
 }
-.credit span {
+/* .credit span {
 	font-weight: var(--fw-semi-bold);
-}
+} */
 .credit a {
 	font-weight: var(--fw-semi-bold);
 	color: #26a7d8;
