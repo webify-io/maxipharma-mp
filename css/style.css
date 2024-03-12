@@ -1287,6 +1287,7 @@ td {
 	background-color: var(--background-body-accent-clr-alt-2nd);
 	color: var(--clr-text-light-dark);
 	border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
+	text-transform: none; /* Added 12/03/24 @ 14:00  */
 }
 /* .credit span {
 	font-weight: var(--fw-semi-bold);
