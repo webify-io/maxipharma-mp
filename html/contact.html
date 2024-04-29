@@ -69,13 +69,13 @@
 						alt="MaxiPharma Call Centre Employee"
 					/>
 				</div>
-				<form action="#">
-					<input type="" placeholder="Enter Your Name" required />
-					<input type="email" placeholder="Enter Your Email" required />
+				<form action="../mail.php" method="POST">
+					<input type="text" name="name" id="name" placeholder="Enter Your Name" required />
+					<input type="email" name="email" id="email" placeholder="Enter Your Email" required />
 
-					<input type="" placeholder="Enter Your Subject" />
+					<input type="text" name="subject" id="subject" placeholder="Enter Your Subject" />
 					<textarea
-						name=""
+						name="message"
 						id=""
 						cols="40"
 						rows="10"

@@ -1191,6 +1191,9 @@ td {
 .pnf_404 .row .image {
 	flex: 1 1 45rem;
 }
+.pnf_404 .row .msg-send-success-img {
+	margin-top: 7rem;
+}
 
 .pnf_404 .row .image img {
 	width: 32%;
