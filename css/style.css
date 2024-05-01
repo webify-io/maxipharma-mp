@@ -159,9 +159,12 @@ section:nth-child(even) {
 
 .header img {
 	/* position: relative; */
-	width: 8.8rem;
+	width: 7.8rem;
+	margin-top: 4px;
 	/* top: 14px; */
 	pointer-events: none; /* makes img unselectable */
+	border: solid var(--black) 2px;
+	border-radius: 5px;
 }
 
 .header_quote {
@@ -174,7 +177,7 @@ section:nth-child(even) {
 	color: var(--clr-text-light);
 	position: absolute;
 	right: 5rem;
-	top: 7.5rem;
+	top: 7rem;
 }
 #header_quote-450px {
 	display: none;
@@ -194,7 +197,7 @@ section:nth-child(even) {
 	text-transform: capitalize;
 	position: absolute;
 	right: 2rem;
-	top: 2.5rem;
+	top: 2rem;
 }
 /* .navbar a {
 	margin-left: 10px;
@@ -1443,6 +1446,7 @@ td {
 		top: 2.7rem;
 	}
 	.header img {
+		margin-top: 0;
 		width: 6.2rem;
 	}
 	#header_quote-450px {
