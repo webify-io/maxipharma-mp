@@ -7,7 +7,7 @@
 	--light-color: #a0a1a1;
 	--box-shadow: 0.5rem 0.5rem 0 rgba(22, 160, 133, 0.2);
 	--text-shadow: 0.4rem 0.4rem 0 rgba(0, 0, 0, 0.2);
-	--text-shadow-alt: 0.2rem 0.2rem 0 rgba(0, 0, 0, 0.2);
+	--text-shadow-alt: 0.2rem 0.2rem 0 rgba(0, 0, 0, 0.1);
 	--border: 0.165rem solid var(--clr-modal);
 
 	/* New Root Properties to Use */
@@ -676,8 +676,8 @@ section:nth-child(even) {
 .services_modal-icon {
 	color: var(--clr-text-light-dark-p);
 	font-size: var(--fs-250);
-	margin-right: 0.25rem;
-	padding: 1.5rem 0;
+	margin-right: 0.5rem;
+	padding: 1.7rem 0;
 }
 
 /* ========= Active Modal ======== */
@@ -1300,11 +1300,15 @@ td {
 } */
 .credit a {
 	font-weight: var(--fw-semi-bold);
-	color: #26a7d8;
+	color: rgb(48, 114, 223);
+	/* color: rgb(17, 94, 121); */
 	text-decoration: none;
 }
 .credit a:hover {
-	color: #30c5ff;
+	color: rgba(48, 114, 223, 0.7);
+}
+.credit-sm-screen-br {
+	display: none;
 }
 
 /* ************************************************* */
@@ -1507,5 +1511,11 @@ td {
 	}
 	.footer_br {
 		display: none;
+	}
+	.credit-sm-screen {
+		display: none;
+	}
+	.credit-sm-screen-br {
+		display: initial;
 	}
 }
