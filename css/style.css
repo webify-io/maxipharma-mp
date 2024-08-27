@@ -1300,12 +1300,13 @@ td {
 } */
 .credit a {
 	font-weight: var(--fw-semi-bold);
-	color: rgb(48, 114, 223);
+	color: hsl(201, 79%, 50%);
 	/* color: rgb(17, 94, 121); */
 	text-decoration: none;
 }
 .credit a:hover {
-	color: rgba(48, 114, 223, 0.7);
+	color: hsl(201, 79%, 60%);
+	/* color: rgba(48, 114, 223, 0.7); */
 }
 .credit-sm-screen-br {
 	display: none;

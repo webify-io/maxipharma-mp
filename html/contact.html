@@ -75,7 +75,11 @@
 						alt="MaxiPharma Call Centre Employee"
 					/>
 				</div>
-				<form action="../mail.php" method="POST">
+				<form action="../mail.php" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+					<!-- Honeypot -->
+					<input name="bot-field"  style="display: none;"/>
+
+					<!-- Form Fields -->
 					<input type="text" name="name" id="name" placeholder="Enter Your Name" required />
 					<input type="email" name="email" id="email" placeholder="Enter Your Email" required />
 
@@ -152,7 +156,7 @@
 				<span class="credit-sm-screen">|</span>
 				<span class="credit-sm-screen-br"><br></span>
 				Developed by
-				<a href="https://webify-io.github.io/webify/"  target="_blank" rel="noopener noreferrer">
+				<a href="https://www.webify.org.za/"  target="_blank" rel="noopener noreferrer">
 					Webify<sup>&reg;</sup>
 				</a>
 			</div>
